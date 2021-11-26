@@ -52,8 +52,8 @@ NewCoin.addNewBlock(new Block(2, '03/01/1999', {value: 50}))
 
 console.log(JSON.stringify(NewCoin, null, 4))
 
-console.log(' isChainValid ',NewCoin.isChainvalid())
+// console.log(' isChainValid ',NewCoin.isChainvalid())
 
-NewCoin.chain[1].data = {value : 100}
+// NewCoin.chain[1].data = {value : 500}
 
-console.log(' isChainValid ',NewCoin.isChainvalid())
+// console.log(' isChainValid ',NewCoin.isChainvalid())
